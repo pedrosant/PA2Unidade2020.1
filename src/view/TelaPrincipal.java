@@ -5,13 +5,13 @@
  */
 package view;
 
-import AcessoriosVeiculo.Decorator;
-import AcessoriosVeiculo.StarWars;
-import AcessoriosVeiculo.TipoFestaCompleta;
-import AcessoriosVeiculo.TipoFestaNormal;
-import AcessoriosVeiculo.TipoFestaSimples;
-import AcessoriosVeiculo.ToyStore;
-import AcessoriosVeiculo.ValorDecorator;
+import Controller.Decorator;
+import Model.StarWars;
+import Model.TipoFestaCompleta;
+import Model.TipoFestaNormal;
+import Model.TipoFestaSimples;
+import Model.ToyStore;
+import Model.ValorDecorator;
 import javax.swing.JOptionPane;
 
 /**

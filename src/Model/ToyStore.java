@@ -3,27 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AcessoriosVeiculo;
+package Model;
+
+import Controller.Decorator;
 
 /**
  *
  * @author Roberto Borges
  */
-public class StarWars extends Decorator{
+public class ToyStore extends Decorator{
 
-    public StarWars(Decorator acessorios) {
+    public ToyStore(Decorator acessorios) {
         super(acessorios);
     }
 
-    public StarWars() {
+    public ToyStore() {
     }
+    
+    
 
-    
-    
-    
     @Override
     public double calculaValor(ValorDecorator valorDecorator) {
-        return 2000 + calcula(valorDecorator);
+        return 300 + calcula(valorDecorator);
     }
     
 }

@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factory;
-import AcessoriosVeiculo.ValorDecorator;
-import AcessoriosVeiculo.Decorator;
-import AcessoriosVeiculo.StarWars;
-import AcessoriosVeiculo.TipoFestaSimples;
-import AcessoriosVeiculo.ToyStore;
+package Model;
+import Model.ValorDecorator;
+import Controller.Decorator;
+import Model.StarWars;
+import Model.TipoFestaSimples;
+import Model.ToyStore;
+import Controller.InterfaceFesta;
 /**
  *
  * @author Roberto Borges

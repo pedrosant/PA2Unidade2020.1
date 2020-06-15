@@ -3,23 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AcessoriosVeiculo;
+package Model;
+
+import Controller.Decorator;
 
 /**
  *
  * @author Roberto Borges
  */
-public class ValorDecorator {
+public class TipoFestaCompleta extends Decorator{
 
-    private double valor;
-    
-    public ValorDecorator(double valor) {
-        this.valor = valor;
-    }
-
-    public double getValor() {
-        return valor;
+    @Override
+    public double calculaValor(ValorDecorator valorDecorator) {
+       return 1000 + calcula(valorDecorator);
     }
     
-     
 }

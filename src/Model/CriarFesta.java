@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factory;
+package Model;
+
+import Controller.InterfaceFesta;
+import Model.Festa;
 
 /**
  *

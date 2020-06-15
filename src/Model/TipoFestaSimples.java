@@ -3,14 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factory;
+package Model;
+
+import Controller.Decorator;
 
 /**
  *
  * @author Roberto Borges
  */
-public interface InterfaceFesta {
-    
-    public void criarFesta();
+public class TipoFestaSimples extends Decorator{
+
+    @Override
+    public double calculaValor(ValorDecorator valorDecorator) {
+        return 200 + calcula(valorDecorator);
+    }
     
 }
